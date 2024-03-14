@@ -144,11 +144,15 @@
 			background-color:#F8F8F8;
 		}
 
-		.articulo {
+		.articulo .h2 { no funciona aquiiiiiiiiiiiiii
 			margin: 1em;
+            color: #CC6600;
+            font-size: 1.6em;
+            margin-bottom: 0.6em;
+
+
 		}
-
-
+        
 		#publicidad {
 			margin-top: 1em;
 			border-style: dashed;
@@ -177,5 +181,6 @@
 		#secundario {
 			border: 1px solid #cc6600;
 		}
+        body {font: arial; 
+            font-size: 0.9em;}
         
-        #
