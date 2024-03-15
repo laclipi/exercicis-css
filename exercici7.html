@@ -3,43 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menú Vertical con Imágenes de Fondo</title>
+<title>ejercicio 7: Menú Vertical con Imágenes de Fondo</title>
 <style>
     body {
         margin: 0;
-        padding: 0;
+        padding: 0px;
+        color:#0c0b0b;
         font-family: Arial, sans-serif;
     }
 
     .menu {
         width: 200px;
-        background-color: #333;
+        background-color: #f1eded;
+        border: "solid" 2px "color: black";
     }
 
     .menu-item {
         padding: 10px;
-        color: #fff;
+        color: #0c0b0b;
         font-size: 18px;
         background-size: cover;
+        border: 2px solid   black;
+        
     }
 
     .menu-item:hover {
-        background-color: #555;
+        background-color: #f1e6e6;
+    
     }
-
     /* Imágenes de fondo para cada elemento */
-    .elemento1 { background-image: url('imagen1.jpg'); }
-    .elemento2 { background-image: url('imagen2.jpg'); }
-    .elemento3 { background-image: url('imagen3.jpg'); }
-    .elemento4 { background-image: url('imagen4.jpg'); }
-    .elemento5 { background-image: url('imagen5.jpg'); }
-    .elemento6 { background-image: url('imagen6.jpg'); }
+    .elemento1 { background-image: url("imatges/mariposa.jpg"); width: 20px;  background-size: contain ;}
+    .elemento2 { background-image: url("arbol2.jpg"); }
+    .elemento3 { background-image: url("imatges/hojas.jpg"); }
+    .elemento4 { background-image: url("niño.jpg"); }
+    .elemento5 { background-image: url("otoño.jpg"); }
+    .elemento6 { background-image: url("arboles.jpg"); }
+    .red{
+        background: red;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+    }
+    .blue{
+        background: blue;
+    }
+  
+    
 </style>
 </head>
 <body>
 
 <div class="menu">
-    <div class="menu-item elemento1">Elemento 1</div>
+    <div class="red"><div class="elemento1" ><p>Elemento 1</p></div></div>
     <div class="menu-item elemento2">Elemento 2</div>
     <div class="menu-item elemento3">Elemento 3</div>
     <div class="menu-item elemento4">Elemento 4</div>
